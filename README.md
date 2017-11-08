@@ -10,3 +10,4 @@ Usage :
         validator.set('onlyOne',['#company_name','#person_name'],'* You cannot enter company name and person name at same time.');
         validator.set('requiredNotZero','#price','* Yo need to enter a price value other than zero.');
         validator.set('phone','#phone','* This does not look like proper phone number.');
+        var warning = validator.warning+dosyakontrol;
