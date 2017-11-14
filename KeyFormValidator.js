@@ -1,7 +1,7 @@
 var FormValidator = function () {
 
     this.formArr  =[];
-    this.warning="";
+    var warning="";
     validator = this;
 
     this.set =  function(rule_,dom_, message_,options_){
@@ -148,6 +148,9 @@ var FormValidator = function () {
             }
     }
 
+    this.getWarning=function(){
+    return warning;
+    }
 
 
 
