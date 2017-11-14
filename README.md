@@ -12,6 +12,6 @@ Usage :
         validator.set('phone','#phone','* This does not look like proper phone number.');
         
         //do whatever with the produced warning...
-        var warning = validator.warning;
+        var warning = validator.getWarning();
         
         
